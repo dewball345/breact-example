@@ -1,5 +1,5 @@
 from breact.baseclasses import *
-from browser.html import *
+from browser.html import H1, DIV, H3, BUTTON
 from browser import document, bind, timer
 
 

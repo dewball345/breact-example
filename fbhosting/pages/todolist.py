@@ -1,5 +1,5 @@
 from breact.baseclasses import *
-from browser.html import *
+from browser.html import DIV, H3, H5, H1, BUTTON, TEXTAREA, LABEL, INPUT
 from browser import document, bind
 
 

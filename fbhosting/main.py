@@ -1,11 +1,11 @@
 from breact.baseclasses import *
-from browser.html import *
+from browser.html import DIV, H1, P, H3, BUTTON
 from browser import document, bind, timer, window
-from breact.router import *
-from pages.quiz import *
-from pages.todolist import *
-from pages.app import *
-from pages.routerTest import *
+from breact.router import Router, Link
+from pages.quiz import Main
+from pages.todolist import TodoMain
+from pages.app import WithGroups
+from pages.routerTest import RouterTestPage
 
 def homePage():
     return group(DIV(Class="container d-flex flex-column justify-content-center align-items-center", style={
