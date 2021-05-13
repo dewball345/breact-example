@@ -11,7 +11,7 @@ def homePage():
     return group(DIV(Class="container d-flex flex-column justify-content-center align-items-center", style={
         "height":"100vh"
     }), [
-        H1("Breact: A python library for single page webapps", Class="text-center"),
+        H1("Breact: A python framework for single page webapps", Class="text-center"),
         P('''
             This app was coded in python in Breact. Look in the inspector, and you will see
             <br>
